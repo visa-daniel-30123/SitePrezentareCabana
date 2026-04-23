@@ -7,6 +7,10 @@ on:
     branches: [ "develope" ]
   workflow_dispatch:
 
+# Required for gh-pages action to push commits
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
