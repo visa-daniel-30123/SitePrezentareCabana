@@ -57,7 +57,7 @@ function App() {
       {/* Navigation */}
       <nav className="navbar">
         <div className="nav-container">
-          <div className="logo">🏊 Pool & Cabana</div>
+          <div className="logo">Blue Lake</div>
           <div className="nav-links">
             <button onClick={() => scrollToSection('about')}>About</button>
             <button onClick={() => scrollToSection('gallery')}>Gallery</button>
